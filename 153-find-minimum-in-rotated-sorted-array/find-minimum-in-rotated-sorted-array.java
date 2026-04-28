@@ -3,6 +3,7 @@ class Solution {
         int n = nums.length;
         int low = 0;
         int high = n-1;
+        int ans = -1;
         while(low<high)
         {
           int guess = (low+high)/2;
